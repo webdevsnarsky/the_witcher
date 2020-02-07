@@ -348,6 +348,7 @@ main .swiper-container div.swiper-slide {
             flex-direction: column;
     width: 250px;
     padding-bottom: 40px;
+    z-index: 1;
   }
   .header-active {
     display: -webkit-box;
@@ -388,6 +389,7 @@ main .swiper-container div.swiper-slide {
     border: none;
     outline: none;
     cursor: pointer;
+    z-index: 2;
   }
   .menu-button::before {
     content: '';
